@@ -1,7 +1,7 @@
 baseURL: "https://deshanadesai.github.io/"
 title: MyGit
 paginate: 5
-theme: PaperMod
+theme: hugo-PaperMod
 
 enableRobotsTXT: true
 buildDrafts: false
