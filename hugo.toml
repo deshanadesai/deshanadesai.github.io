@@ -12,7 +12,7 @@ theme = 'PaperMod'
   Content = "Notes, experiments, and write-ups on vision + ML. Coffee-fueled, book-approved."
   icon = "/apple-touch-icon.png"
   iconHeight = 35
-  coverImage = "/images/test2.webp"   # ← add this
+  coverImage = "/images/test3.webp"   # ← add this
   coverAlt = "Brewing Notes cover"   # ← optional
 
 
