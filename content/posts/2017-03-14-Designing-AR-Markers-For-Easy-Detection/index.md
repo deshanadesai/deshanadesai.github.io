@@ -1,6 +1,5 @@
 +++
 date = '2017-03-14T11:30:03+00:00'
-draft = true
 title = "Designing Markers for Easy Detection in Real Life Images"
 +++
 

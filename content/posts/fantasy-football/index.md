@@ -1,6 +1,5 @@
 +++
 date = '2022-09-16T23:27:30-04:00'
-draft = true
 title = 'Optimal Decision Making in Fantasy Football'
 +++
 
