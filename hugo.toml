@@ -1,0 +1,18 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = "Brewing Notes"
+theme = 'PaperMod'
+
+[params]
+  disableSpecial1stPost = true
+  images = ["/images/cover.jpg"]
+  
+[params.homeInfoParams]
+  Title = "Hi, I’m Deshana!"
+  Content = "Notes, experiments, and write-ups on vision + ML. Coffee-fueled, book-approved."
+  icon = "/apple-touch-icon.png"
+  iconHeight = 35
+  coverImage = "/images/test2.webp"   # ← add this
+  coverAlt = "Brewing Notes cover"   # ← optional
+
+

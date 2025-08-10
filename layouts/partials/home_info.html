@@ -1,13 +1,20 @@
-{{- with site.Params.homeInfoParams }}
-<article class="first-entry home-info">
+{{- $home := site.Params.homeInfoParams -}}
+{{- with $home }}
+  {{- with .coverImage }}
+  <div class="home-cover">
+    <img src="{{ . }}" alt="{{ $home.coverAlt | default "Home cover" }}" loading="eager">
+  </div>
+  {{- end }}
+
+  <article class="first-entry home-info">
     <header class="entry-header">
-        <h1>{{ .Title | markdownify }}</h1>
+      <h1>{{ $home.Title | markdownify }}</h1>
     </header>
     <div class="entry-content">
-        {{ .Content | markdownify }}
+      {{ $home.Content | markdownify }}
     </div>
     <footer class="entry-footer">
-        {{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}
+      {{ partial "social_icons.html" (dict "align" $home.AlignSocialIconsTo) }}
     </footer>
-</article>
+  </article>
 {{- end -}}

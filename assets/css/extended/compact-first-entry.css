@@ -1,0 +1,6 @@
+/* Make the hero-style entries compact */
+.list article.first-entry {
+  min-height: unset !important;   /* ← this removes the 320px height */
+  margin: 1rem 0 4rem !important;  /* tighter spacing */
+}
+

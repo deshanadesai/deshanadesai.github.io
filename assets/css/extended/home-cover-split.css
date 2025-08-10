@@ -1,0 +1,15 @@
+.home-cover img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  /* Optional: control height while keeping a nice crop */
+  max-height: 220px;
+  object-fit: cover;
+}
+
+.first-entry.home-info {
+  margin-top: 1rem; /* space under the image */
+  /* remove any background hacks you previously added */
+}
+
